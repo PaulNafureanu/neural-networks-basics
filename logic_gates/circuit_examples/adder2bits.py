@@ -1,7 +1,7 @@
 """ A 2 bit Adder class made of NAND gates. """
 
 from typing import Tuple
-from logic_gates.nand import NAND
+from logic_gates.nand_gate import NAND
 
 
 class Adder2Bits:
