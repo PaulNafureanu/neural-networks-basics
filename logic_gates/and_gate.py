@@ -1,4 +1,4 @@
-""" A AND logic gate created from perceptrons. """
+""" An AND logic gate created from perceptrons. """
 
 from typing import Tuple
 from neurons.perceptron import Perceptron
@@ -8,7 +8,7 @@ class AND(Perceptron):
     """ The AND gate as an extension of the Perceptron class. """
 
     def __init__(self) -> None:
-        """ Define a AND gate. """
+        """ Define an AND gate. """
         super().__init__([1, 1], 1)
 
     def compute(self, inputs: Tuple[1 | 0, 1 | 0]) -> 1 | 0:
